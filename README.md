@@ -16,6 +16,7 @@
 1. Open `Edit` -> `Preferences`
 2. Switch to `Privacy` tab
 3. on `Blocklist`-> `Enable blocklist`, paste `block.txt` file path to the field
+   e.g. [public block file](https://raw.githubusercontent.com/FriesI23/transmission-block-list/master/block.txt)
 
 ### 2. transmission daemon
 
@@ -28,6 +29,7 @@
 ```json
 {
     "blocklist-enabled": true,
-    "blocklist-url": url/path
+    "blocklist-url": "https://raw.githubusercontent.com/FriesI23/transmission-block-list/master/block.txt"
+}
 ```
 
